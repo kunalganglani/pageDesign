@@ -3,19 +3,11 @@
     background: #4F4D53;
     color: #fff;
 }
-
-div {
-    /* border: 1px solid black; */
-}
-
 body {
     margin:0px;
 }
-
 .bannerContainer {
-    height: 457.172px;
-    /* position: relative; */
-    /* background-image: url('./media/img_hero.jpg'); */
+    height: 460px;
 }
 .heading {
     text-align: center;
@@ -29,17 +21,21 @@ body {
 }
 .description {
     text-align: center;
-    margin-top: 10em;
+    margin-top: 6em;
 }
-
+.navBar > div > img {
+    left: 10%;
+    margin-left: 25%;
+}
+.navBar > div {
+    height: 48px;
+    line-height: 56px;
+}
 .bannerImage {
     max-width: 100%;
     position: absolute;
     width: 100%;
-    /* top: 48px; */
-    /* height: 441px; */
     height: 460px;
-    /* max-height: 448px; */
     display: flex;
     left: 0px;
     z-index: -1;
@@ -54,18 +50,12 @@ body {
     display: flex;
     background:#4F4D53;
     justify-content: space-around;
+    border-top: 12px solid #E8BE02;
 }
-
 .content {
     flex: 1;
 }
-.yellowBand {
-    height:12px; 
-    background:#E8BE02;
-}
-
 h1 {
-    /* font-family: Roboto Black (900); */
     color:  #4F4D53;
     font-weight: 900;
     font-size: 100px;
@@ -82,18 +72,15 @@ h3 {
     font-size: 20px;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
-    /* Roboto Black (900) 20px # */
 }
 h4{
     font-size: 14px;
     color:#FFFFFF;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
-    /* Roboto Regular (400) 14px #FFFFFF */
 } 
 p {
     font-size: 20px;
     color:#4F4D53 ;
     font-family: 'Roboto', sans-serif;
-    /* Roboto Regular (400) 20px # */
 }
